@@ -22,7 +22,15 @@ Array.from(menuItems).forEach((item, index) => {
     }
 })
 
-// food category
+let menuItemsmobile = document.getElementsByClassName('mobile-item')
+
+Array.from(menuItemsmobile).forEach((item, index) => {
+    item.onclick = (e) => {
+        let currMenu = document.querySelector('.mobile-item.active')
+        currMenu.classList.remove('active')
+        item.classList.add('active')
+    }
+})
 
 let eventMenuList = document.querySelector('.event-item-wrap')
 
@@ -84,7 +92,8 @@ const thmasInputText = document.querySelector('#thmas-input-text');
 thmasButton.addEventListener('click', clickButton);
 
 function clickButton() {
-var URL = "https://www.google.com/search?q=" + thmasInputText.value;
+var URL = "https://docs.google.com/forms/d/e/1FAIpQLSepypRP5WHCYOgEwtqdNbF19" + thmasInputText.value + "SaXVCWM1tcX14HNxHfzFMOPQ/viewform";
+
 var win = window.open(URL, "_blank");
 }
 /*=============== SHOW MENU ===============*/

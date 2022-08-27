@@ -218,7 +218,7 @@ section {
 }
 
 .event-item {
-    width: 30%;
+    width: 33.3%;
     height: 30rem;
     padding: 1rem;
 }
@@ -636,15 +636,14 @@ section {
     .mobile-item.active i {
         color: var(--white);
     }
+    .mobile-item:hover,
+    .mobile-item.active {
+    color: #ffffff;
+    background-color:  #64bcf4;
+    
+}
 
-    .mb-move-item {
-        position: absolute;
-        left: 0;
-        width: 25%;
-        height: 100%;
-        background-color:  #64bcf4;
-        transition: .5s ease-in-out;
-    }
+   
 
     /* END MOBILE NAV */
 

@@ -4,6 +4,6 @@ $(function(){
         issuesSpeed: 	300,
         datesSpeed: 	100,
         arrowKeys: 		'true',
-        startAt:		3
+        startAt:	3
     })
 });

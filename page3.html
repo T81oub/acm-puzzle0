@@ -1,84 +1,166 @@
 <!DOCTYPE html>
-<html >
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="assets/img/ACM.png" type="image/x-icon">
-  <title>ACM Plans</title>
-  
-  
-  
-      <link rel="stylesheet" href="stylep3.css">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/ACM.png" type="image/x-icon">
 
-  
-</head>
+        
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-<body class="size">
-  	<div id="timeline" class="zoom">
-		
-		<ul id="dates">
-			<li><a href="#1" class="selected">1</a></li>
-			<li><a href="#2">2</a></li>
-			<li><a href="#3">3</a></li>
-			<li><a href="#4">4</a></li>
-			<li><a href="#5">5</a></li>
-			
-		</ul>
-		<ul id="issues">
-			<li id="1" class="selected">
-				<img src="assets/puzzle.png" />
-				<h1>#Internet Puzzle</h1>
-				<p>the beginning of the ACM internet puzzle. There will be six puzzles in this game, and each puzzle's output serves as a link to the next puzzle. The riddle that will direct you to the ACM Registration Form is #Puzzle0. While puzzle 1 serves as the starting point of our competition in which you can win a price, you will receive puzzle 1 or your first game clue after you complete your interview with ACM. The sooner you complete the interview, the higher your chances of winning. In general, the puzzle questions are reasonable, however, until puzzle 5, they will become increasingly challenging.</p>
-			</li>
-			<li id="2">
-				<img src="assets/teamb.png" />
-				<h1>#Team Building</h1>
-				<p>In order to 
-					acclimate the new members and encourage individuals who would not normally engage in 
-					conversation to do so, the event will center around entertaining and interesting activities. 
-					Additionally, the program will also instruct participants in teamwork and community involvement, 
-					both of which will increase productivity.</p>
-			</li>
-			<li id="3">
-				<img src="assets/C.png" />
-				<h1>#C training sessions</h1>
-				<p>Providing exercises, workshops, and practice, those sessions will aid in your c language skills. lastly, you'll be able to excel in both our c language competition and your ACM exam.</p>
-			</li>
-			<li id="4">
-				<img src="assets/web.png" />
-				<h1>#web development</h1>
-				<p>Web development is a growing career field for programmers, designers, and anyone interested in building websites.In order to enable new members to take their first steps in it, begin their college projects, and make it easier for them to choose what they are going to do for a career, the acm club will offer training sessions and workshops in this field.</p>
-			</li>
-			<li id="5">
-				<img src="assets/glasses.png" />
-				<h1>Stay Tuned</h1>
-				<p>This is just a small portion of our overall strategy, so pay attention and don't waste the opportunity.
-					We have a lot of surprises in store for you!</p>
-			</li>
-		</ul>
-		<div id="grad_top"></div>
-		<div id="grad_bottom"></div>
-		<a href="#" id="next">+</a>
-		<a href="#" id="prev">-</a>
-	
-</div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='http://www.csslab.cl/ejemplos/timelinr/latest/js/jquery.timelinr-0.9.54.js'></script>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
+       
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
+        
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <script type="text/javascript">
-       $(function(){
-           $().timelinr({
-        orientation: 	'vertical',
-        issuesSpeed: 	300,
-        datesSpeed: 	100,
-        arrowKeys: 		'true',
-        startAt:		3
-    })
-});
-    </script>
+        <title>ACM Plans</title>
+    </head>
+    <body>
+        
+        
+        <main class="main">
+           
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/puzzle.png" alt="" class="img-1">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Internet Puzzle</h4>
+                                        <span class="home__details-subtitle">first edition</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#1 IN OUR PLANS </h3>
+                                    <h1 class="home__title">INTERNET <br>PUZZLE</h1>
+                                    <p class="home__description">
+                                        the beginning of the ACM internet puzzle. There will be six puzzles in this game, and each puzzle's output serves as a link to the next puzzle. The riddle that will direct you to the ACM Registration Form is #Puzzle0. While puzzle 1 serves as the starting point of our competition in which you can win a price, you will receive puzzle 1 or your first game clue after you complete your interview with ACM. The sooner you complete the interview, the higher your chances of winning.
+                                    </p>
 
+                                   
+                                </div>
+                            </div>
+                        </section>
 
-</body>
+                        
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/logo.png" alt="" class="team building img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Team building</h4>
+                                        <span class="home__details-subtitle">Join Our Family</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#2 IN OUR PLANS</h3>
+                                    <h1 class="home__title">TEAM <br> building </h1>
+                                    <p class="home__description">In order to 
+                                        acclimate the new members and encourage individuals who would not normally engage in 
+                                        conversation to do so, the event will center around entertaining and interesting activities. 
+                                        Additionally, the program will also instruct participants in teamwork and community involvement, 
+                                        both of which will increase productivity.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/C.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">C training sessions</h4>
+                                        <span class="home__details-subtitle">Improve your hard skills</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#3 IN OUR PLANS</h3>
+                                    <h1 class="home__title">C <br> TRAINING <br> SESSIONS</h1>
+                                    <p class="home__description">Providing exercises, workshops, and practice, those sessions will aid in your c language skills. lastly, you'll be able to excel in both our c language competition and your ACM exam.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/web.png" alt="" class="web">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Web development</h4>
+                                        <span class="home__details-subtitle">Improve Your Skills</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#4 IN OUR PLANS</h3>
+                                    <h1 class="home__title">WEB <br> DEVELOPMENT</h1>
+                                    <p class="home__description">Web development is a growing career field for programmers, designers, and anyone interested in building websites.In order to enable new members to take their first steps in it, begin their college projects, and make it easier for them to choose what they are going to do for a career, the acm club will offer training sessions and workshops in this field.
+                                    </p>
+
+                                    
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/glasses.png" alt="" class="glasses">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Stay Tuned</h4>
+                                        <span class="home__details-subtitle">Don't waste this opportunity. </span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#5 IN OUR PLANS</h3>
+                                    <h1 class="home__title">STAY <br> TUNED</h1>
+                                    <p class="home__description">This is just a small portion of our overall strategy, so pay attention and don't waste the opportunity.
+                                        We have a lot of surprises in store for you!
+                                    </p>
+
+                                   
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+           
+           
+       
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

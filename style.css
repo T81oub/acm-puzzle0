@@ -276,6 +276,11 @@ section {
 .item-info>div:first-child {
     text-align: left;
 }
+.seemorepara{
+    color:#D70040;
+    font-size: 1rem;
+
+}
 .margin{
   margin-top: 80px;
 }

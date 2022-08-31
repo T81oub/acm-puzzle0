@@ -92,7 +92,7 @@ const thmasInputText = document.querySelector('#thmas-input-text');
 thmasButton.addEventListener('click', clickButton);
 
 function clickButton() {
-var URL = "https://docs.google.com/forms/d/e/1FAIpQLSeO33KADL7IbUscXWKkjlFYj5R5Uvz9VdbUeFjG" + thmasInputText.value + "1yJKVay7w/viewform?usp=sf_link";
+var URL = "https://docs.google.com/forms/d/1HUkVG4nySUJEpZyZg4EQLiogWb-hGun41LpQJl1" + thmasInputText.value + "5RU/edit?fbclid=IwAR0S2c7pCnUxAZAEgydsq5Ad2EsDhGu8LYefGKn-512gXNN94tpLx0ibAFQ";
 
 var win = window.open(URL, "_blank");
 }

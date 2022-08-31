@@ -708,3 +708,20 @@ section {
         color:#555153;
     }
 }
+.btn2 button {
+    padding: .5rem 2.5rem;
+    margin: 0 1rem;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.btn2 button:hover {
+    background-color: #64bcf4;
+    color:white;
+}
